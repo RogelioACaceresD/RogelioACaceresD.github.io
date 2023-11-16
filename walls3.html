@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+
+body {
+    display: block;
+    margin: 0px;
+	background: black;
+	animation: transitionIn 0.75s;
+}
+
+video#bgvid { 
+    position: fixed;
+	z-index: -102;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	video#bgvid {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	video#bgvid {
+		width: auto;
+		height: 100%;
+	}
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    border: none;
+	transition: 0.5s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<video playsinline autoplay muted loop poster="videoplayback.jpg" id="bgvid">
+    <source src="aggad.avi_1.mp4" type="video/mp4">
+</video>
+
+
+
+
+</body>
+
+</html>

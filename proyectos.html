@@ -1,0 +1,158 @@
+<html>
+<head>
+<style>
+
+
+
+body {
+    display: block;
+    margin: 0;
+	color: white;
+	font-family: verdana;
+	font-size: 150%;
+	line-height: 80%;
+	text-align: center;
+	transition: 0.5s;
+	animation: transitionIn 0.75s;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    border: none;
+	transition: 0.5s;
+	height: 100%;
+	right: 0;
+}
+
+@media (max-width: 1024px) {
+	iframe {
+		position: absolute;
+		width: 80%;
+		border: none;
+		transition: 0.5s;
+		height: 100%;
+		right: 0;
+	}
+}
+
+.background {
+	position: fixed;
+    color: white;
+    width: 100%;
+	height: 100%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.6);
+	z-index: -100;
+}
+
+
+.hoja {
+		position: relative;
+		padding: 1px 170px;
+		top: 100px;
+		
+}
+
+ul {
+	  display: none;
+}
+
+
+
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.hoja {
+		margin-left: 20%;
+		padding: 1px 70px 0px 0px;
+		overflow: auto;
+		top: 0;
+		
+	}
+}
+
+
+
+@media (max-width: 1024px) {
+	.background {
+		position: fixed;
+		display: block;
+		width: 100%;
+		height: 100%;
+		z-index: -100;
+	}
+}
+
+@media (max-width: 1024px) {
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  width: 30%;
+	  position: fixed;
+	  height: 100%;
+	  overflow: auto;
+	}
+}
+
+::-webkit-scrollbar {
+	background: red;
+}
+ 
+::-webkit-scrollbar-track {
+	
+}
+
+::-webkit-scrollbar-thumb {
+	
+}
+
+</style>
+
+</head>
+
+<body>
+
+<iframe src="https://foxtrotsaber.blogspot.com/" name="iframe_a"></iframe>
+
+
+
+<ul>
+  <a></a>
+</ul>
+
+
+
+<div class="background">
+
+<a></a>
+
+</div>
+
+
+<div class="hoja">
+
+<h3>
+
+
+
+
+</div>
+
+
+</body>
+
+</html>

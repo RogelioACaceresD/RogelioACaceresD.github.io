@@ -1,0 +1,141 @@
+<html>
+<head>
+<style>
+
+
+
+body {
+    display: block;
+    margin: 0;
+	color: white;
+	font-family: verdana;
+	font-size: 150%;
+	line-height: 80%;
+	text-align: center;
+	transition: 0.5s;
+	animation: transitionIn 0.75s;
+}
+
+.background {
+	position: fixed;
+    color: white;
+    width: 100%;
+	height: 100%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.6);
+	z-index: -100;
+}
+
+
+.hoja {
+		position: relative;
+		padding: 1px 170px;
+		top: 100px;
+		
+}
+
+ul {
+	  display: none;
+}
+
+
+
+
+
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.hoja {
+		margin-left: 20%;
+		padding: 1px 70px 0px 0px;
+		overflow: auto;
+		top: 0;
+		
+	}
+}
+
+
+
+@media (max-width: 1024px) {
+	.background {
+		position: fixed;
+		display: block;
+		width: 100%;
+		height: 100%;
+		z-index: -100;
+	}
+}
+
+@media (max-width: 1024px) {
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  width: 30%;
+	  position: fixed;
+	  height: 100%;
+	  overflow: auto;
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<ul>
+  <a></a>
+</ul>
+
+
+
+<div class="background">
+
+<a></a>
+
+</div>
+
+
+<div class="hoja">
+
+<h3>
+
+
+
+<center><img src="cv_rogelio foto.png" width="500px"></center>
+
+<h2 id="pgdp"><b><center>Rogelio Cáceres</center></b></h2>
+
+<p>Me llamo Rogelio, tengo 21 años, soy un diseñador gráfico amateur independiente.</p>
+<p>5+ años editando y diseñando imágenes, además aprendiendo durante el transcurso por mi cuenta. </p>
+<p>Me manejo en la edición de imágenes, diseño web, animación (aprendiendo) y reparación de computadoras.</p>
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<html>
+<head>
+<style>
+
+
+
+body {
+    display: block;
+    margin: 0;
+	color: white;
+	font-family: verdana;
+	font-size: 150%;
+	line-height: 80%;
+	text-align: center;
+	transition: 0.5s;
+	animation: transitionIn 0.75s;
+}
+
+.background {
+	position: fixed;
+    color: white;
+    width: 100%;
+	height: 100%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.6);
+	z-index: -100;
+}
+
+
+.hoja {
+		position: relative;
+		padding: 1px 170px;
+		top: 100px;
+		
+}
+
+ul {
+	  display: none;
+}
+
+
+
+
+
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.hoja {
+		margin-left: 20%;
+		padding: 1px 70px 0px 0px;
+		overflow: auto;
+		top: 0;
+		
+	}
+}
+
+
+
+@media (max-width: 1024px) {
+	.background {
+		position: fixed;
+		display: block;
+		width: 100%;
+		height: 100%;
+		z-index: -100;
+	}
+}
+
+@media (max-width: 1024px) {
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  width: 30%;
+	  position: fixed;
+	  height: 100%;
+	  overflow: auto;
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<ul>
+  <a></a>
+</ul>
+
+
+
+<div class="background">
+
+<a></a>
+
+</div>
+
+
+<div class="hoja">
+
+<h3>
+
+
+<h2 id="pgdp"><b><center>Contactos</center></b></h2>
+
+<p>Correo electrónico (Gmail): tonydurango26@gmail.com</p>
+<p>Teléfono: 292-6955</p>
+<p>Celular: 6466-5797</p>
+
+</h3>
+
+
+
+
+
+
+</div>
+
+
+</body>
+
+</html>
